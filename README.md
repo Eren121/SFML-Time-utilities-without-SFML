@@ -23,6 +23,8 @@ int main()
     
     clock.pause();
     
+    Sleep(1000);
+    
     // prints 0.0
     std::cout << "Elapsed seconds: " << clock.restart().asSeconds() << std::endl;
 }
